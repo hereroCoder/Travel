@@ -1,0 +1,88 @@
+.hero-div {
+    background-image: url("../../img/hero.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 27vw;
+    margin-top: -250px;
+    margin-left:-142px;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title, h1, h3, h2 {
+    font-size: 4rem;
+    color: rgb(26, 17, 17);
+    text-shadow: 2px 2px 4px #eae0e0;
+  }
+  .container {
+      width:100%;
+      float: right;
+      overflow:auto;
+      padding:7%;
+      color: rgb(13, 81, 208)
+  }
+  .right-content, .left-content {
+      float: left;
+      display:block;
+      width:47%;
+      padding:1% 2%;
+  }
+  .left-content {
+      border-right:5px dotted rgb(29, 66, 215);	
+      text-align:right;
+  }
+  .left-content p {
+      margin:100px 0 0;
+      transition: opacity 0.8s ease; 
+      opacity: 0;
+      
+  }
+  .right-content  p {
+    margin:70px 0 160px;
+    opacity: 0; /* to hide the text */
+    transition: opacity 0.8s ease; 
+    
+  }
+  .left-content:hover p{
+      opacity: 1;
+      transform: scale(1.2);
+      margin-right: 170px;
+  }
+  .right-content:hover p {
+    opacity: 1; /* to show the text on hover */
+    transform: scale(1.2);
+    margin-left: 120px;
+  }
+ 
+  .container .photo, p {
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7 ease-in-out;
+  -ms-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;	
+  }
+  .left-content .more-padding {
+    padding-right:100px;
+    margin-top: 22px;
+  }
+  .right-content .more-padding {
+    padding-left:10px;
+    margin-top: 12px;
+  }
+  
+  /** photos styles*/
+  .photo{
+      width: 22vw;
+      padding: 32px;
+      border-radius: 12% 26%;
+  }
+  .photo:hover{
+      cursor: pointer;
+  }
+
+
+ 
+  
