@@ -1,13 +1,13 @@
 
   
-  h2 {
+  /* h2 {
     margin: 0;
     font-size: 2.5em;
     font-weight: 300;
     align-items: center;
     place-content: center;
     justify-content: center;
-  }
+  } */
   #contact-form {
     background-image: url("../..//img/hero.jpeg");
     background-repeat: no-repeat;
