@@ -1,37 +1,42 @@
 .hero-div {
     background-image: url("../../img/hero.jpeg");
+    filter: brightness(73%) contrast(100%);
     background-size: cover;
     background-position: center;
-    height: 27vw;
-    margin-top: -250px;
-    margin-left:-142px;
-    width: 100vw;
+    box-shadow: 20px 20px 29px rgba(240, 189, 189, 0.3);
+    height: 17vw;
+    margin-left:22px;
+    width: 50vw;
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
   }
   
-  .title, h1, h3, h2 {
-    font-size: 4rem;
-    color: rgb(26, 17, 17);
-    text-shadow: 2px 2px 4px #eae0e0;
+  .title {
+    margin-top: 192px;
+    font-size: 3rem;
+    color: rgb(67, 65, 65);
+    text-shadow: 2px 2px 4px #dcd4d4;
   }
   .container {
-      width:100%;
-      float: right;
+      width:100vw;
       overflow:auto;
       padding:7%;
-      color: rgb(13, 81, 208)
+      color: #f5ebeb;
+      float: left;
+      padding-left: 12%;
+      font-family: Lato, sans-serif;
+      /* font-family: 'Cedarville Cursive', cursive; */
   }
   .right-content, .left-content {
       float: left;
       display:block;
-      width:47%;
+      width:50%;
       padding:1% 2%;
   }
   .left-content {
-      border-right:5px dotted rgb(29, 66, 215);	
+      border-right:5px dotted rgb(231, 232, 238);	
       text-align:right;
   }
   .left-content p {
@@ -78,11 +83,13 @@
       width: 22vw;
       padding: 32px;
       border-radius: 12% 26%;
+      box-shadow: 20px 20px 20px 9px rgba(240, 189, 189, 0.3);
   }
   .photo:hover{
       cursor: pointer;
   }
 
+/* text styles*/
 
  
   

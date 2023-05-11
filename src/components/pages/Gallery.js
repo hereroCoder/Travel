@@ -58,7 +58,7 @@ const Gallery = () => {
     <>
     <header>
         <div className="hero-div">
-          <h1 className="title">Let`s Travel and Make The Dreams Happen</h1>
+          <h4 className="title">Exploring Horizons: A Blog for Adventurers</h4>
         </div>
       </header>
     <div className="container">

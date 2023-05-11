@@ -1,27 +1,36 @@
 
-  
-  h2 {
-    margin: 0;
-    font-size: 2.5em;
-    font-weight: 300;
-    align-items: center;
-    place-content: center;
-    justify-content: center;
-  }
   #contact-form {
-    background-image: url("../..//img/hero.jpeg");
-    background-repeat: no-repeat;
-    max-width: 1218px;
+    background-image: none;
     max-width: 80rem;
     margin: 0 auto;
-    border-radius: 22px;
+    border-radius: 32px;
+    display: flex;
+    padding: 100px;
     
+  }
+  .title-c{
+    margin-top: -100px;
+    margin-right: 80px;
+    font-size: 2.4rem;
+    color: rgb(130, 108, 108);
+    font-family: Lato, sans-serif;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    /* text-shadow: 2px 2px 4px #dcd4d4; */
   }
   #contact, label, input[name="submit"] {
     position: relative;
+    margin-left: 12px;
+    align-items: center;
+    width: 32vw;
+    color: bisque;
+
   }
   label > span, input, textarea, button {
     box-sizing: border-box;
+    border-radius: 12px;
+    
   }
   label {
     display: block;
@@ -33,7 +42,7 @@
     width: 100%;
     padding: 0.5em;
     border: none;
-    font: 300 100%/1.2 Ubuntu, sans-serif;
+
   }
   input[type="text"], input[type="email"], textarea {
     margin: 0 0 1em;
@@ -49,11 +58,19 @@
   input[type="submit"], button {
     background: rgb(34, 197, 230);
     border-radius: 12px;
-    color: #333;
+    color: #d3baba;
+    background:#2c2024;
+    border: 2px solid #d3baba;;
+    width: 24vw;
+    font-family: Lato, sans-serif;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    left: 39px;
   }
   input[type="submit"]:hover, button:hover {
-    background: rgb(51, 39, 186);
-    color:white;
+    background:#36262b;
+    color: rgb(201, 112, 112);
+    transform: scale(1.1);
   }
   @media screen and (min-width: 30em) {
     #contact-form h2 {
