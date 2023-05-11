@@ -1,62 +1,161 @@
-import React, { useEffect, useState } from "react";
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Africa from "../img/Africa.jpeg";
-import Caribbean from "../img/Caribbean.jpeg";
-import Cuba from "../img/Cuba.jpeg";
-import Prague from "../img/Prague.jpeg";
-import ChiangMai from "../img/ChiangMai.jpeg"
-import "./styles/Home.css";
+import React from 'react'
+import Carousel from 'react-bootstrap/Carousel'
+import Africa from '../img/Africa.jpeg'
+import Cuba from '../img/Cuba.jpeg'
+import Jamaica from '../img/jamaica.jpeg'
+import Prague from '../img/Prague.jpeg'
+import ChiangMai from '../img/ChiangMai.jpeg'
+import header from '../img/header.png'
+import suitcase from '../img/suitcase.jpg'
+import jordan from '../img/jordan.jpg'
+import switz from '../img/switz.jpg'
+import './styles/Home.css'
 
-export default function Home() {
-  const [selectedIndex, setSelectedIndex] = useState(0);
+function Home() {
+	return (
+		<>
+			<header>
+				<div className='header-banner'>
+					<a href='/'>
+						<img
+							src={header}
+							alt='Trekking-tales Travel-blog'
+							className='banner'
+						/>
+					</a>
+				</div>
+			</header>
+			<div className='carousel-block'>
+				<Carousel fade>
+					<Carousel.Item>
+						<img
+							className='d-block w-100'
+							src={Africa}
+							alt='First slide'
+							style={{
+								objectFit: 'cover',
+								height: '500px',
+								width: '800px',
+								borderRadius: '10px',
+								opacity: '0.8',
+							}}
+						/>
+						<Carousel.Caption>
+							<h4>First slide label</h4>
+						</Carousel.Caption>
+					</Carousel.Item>
+					<Carousel.Item>
+						<img
+							className='d-block w-100'
+							src={Jamaica}
+							alt='Second slide'
+							style={{
+								objectFit: 'cover',
+								height: '500px',
+								width: '800px',
+								borderRadius: '15px',
+								opacity: '0.8',
+							}}
+						/>
 
-  const handleItemClick = (index) => {
-    setSelectedIndex(index);
-  };
+						<Carousel.Caption>
+							<h4>Second slide label</h4>
+						</Carousel.Caption>
+					</Carousel.Item>
 
-  useEffect(() => {
-    const carousel = document.querySelector(".carousel");
-    carousel.addEventListener("click", handleItemClick);
+					<Carousel.Item>
+						<img
+							className='d-block w-100'
+							src={Cuba}
+							alt='Third slide'
+							style={{
+								objectFit: 'cover',
+								height: '500px',
+								width: '800px',
+								borderRadius: '15px',
+								opacity: '0.8',
+							}}
+						/>
 
-    return () => {
-      carousel.removeEventListener("click", handleItemClick);
-    };
-  }, []);
+						<Carousel.Caption>
+							<h3>Third slide label</h3>
+						</Carousel.Caption>
+					</Carousel.Item>
+					<Carousel.Item>
+						<img
+							className='d-block w-100'
+							src={Prague}
+							alt='Third slide'
+							style={{
+								objectFit: 'cover',
+								height: '500px',
+								width: '800px',
+								borderRadius: '15px',
+								opacity: '0.8',
+							}}
+						/>
 
-  return (
-    <>
-      <header>
-        <div className="hero">
-          <h1 className="hero-title">Travel. Enjoy. Life.</h1>
-        </div>
-      </header>
-      <main>
-        <h3>Embark on a Journey, Explore the Extraordinary. Let our Travel Blog be Your Guide to Unforgettable Adventures and Inspiring Destinations.</h3>
-        <Carousel>
-          <div className="carousel">
-            <img src={Africa} alt="Afirca" />
-            <p className="legend">Africa description</p>
-          </div>
-          <div className="carousel">
-            <img src={Caribbean} alt="Caribbean" />
-            <p className="legend">Caribbean description</p>
-          </div>
-          <div className="carousel">
-            <img src={Cuba} alt="Cuba" />
-            <p className="legend">Cuba description</p>
-          </div>
-          <div className="carousel">
-            <img src={Prague} alt="Prague" />
-            <p className="legend">Prague description</p>
-          </div>
-          <div className="carousel">
-            <img src={ChiangMai} alt="Chaing Mai" />
-            <p className="legend">Thailand description</p>
-          </div>
-          {/* Add more image slides here */}
-        </Carousel>
-      </main>
-    </>
-  );
+						<Carousel.Caption>
+							<h3>Third slide label</h3>
+						</Carousel.Caption>
+					</Carousel.Item>
+					<Carousel.Item>
+						<img
+							className='d-block w-100'
+							src={ChiangMai}
+							alt='Third slide'
+							style={{
+								objectFit: 'cover',
+								height: '500px',
+								width: '800px',
+								borderRadius: '15px',
+								opacity: '0.8',
+							}}
+						/>
+
+						<Carousel.Caption>
+							<h3>Third slide label</h3>
+						</Carousel.Caption>
+					</Carousel.Item>
+				</Carousel>
+			</div>
+			<h5>
+				Embark on a Journey, Explore the Extraordinary. <br />
+				Let our Travel Blog be Your Guide to
+				<br /> Unforgettable Adventures and Inspiring Destinations.
+			</h5>
+
+			<div class='container2'>
+				<a href='/destination' className='destination-link'>
+					<h4> Destination </h4>
+				</a>
+				<div class='hover13 column'>
+					<div>
+						<figure>
+							<img
+								src={suitcase}
+								className='border-display'
+								alt='sunset-beach'
+							/>
+						</figure>
+						<span>Hover</span>
+					</div>
+					<div>
+						<figure>
+							<img src={jordan} className='border-display' alt='jordan' />
+						</figure>
+						<span>Hover</span>
+					</div>
+					<div>
+						<figure>
+							<img src={switz} className='border-display' alt='switzerland' />
+						</figure>
+						<span>Name</span>
+					</div>
+				</div>
+			</div>
+		</>
+	)
 }
+
+export default Home

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import "./styles/Contact.css"
+import "./styles/Contact.css";
 
 function Contact() {
   const [submitValue, setSubmitValue] = useState('Send');
