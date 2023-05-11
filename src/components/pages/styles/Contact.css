@@ -21,7 +21,7 @@
   }
   #contact, label, input[name="submit"] {
     position: relative;
-    margin-left: 12px;
+    margin-left: 82px;
     align-items: center;
     width: 32vw;
     color: bisque;
@@ -65,7 +65,7 @@
     font-family: Lato, sans-serif;
     font-weight: bolder;
     font-size: 1.4rem;
-    left: 39px;
+    left: -97px;
   }
   input[type="submit"]:hover, button:hover {
     background:#36262b;

@@ -63,7 +63,7 @@ function Contact() {
       <h1 className='title-c'>Contact</h1>
       <form id="contact" name="contact" acceptCharset="utf-8" onSubmit={handleSubmit}>
         <label>
-          <span>Name</span>
+          {/* <span>Name</span> */}
           <input
             name="name"
             type="text"
@@ -73,7 +73,7 @@ function Contact() {
           />
         </label>
         <label>
-          <span>Email</span>
+          {/* <span>Email</span> */}
           <input
             name="email"
             type="email"
@@ -83,7 +83,7 @@ function Contact() {
           />
         </label>
         <label>
-          <span>Message</span>
+          {/* <span>Message</span> */}
           <textarea
             name="message"
             placeholder="Message"
