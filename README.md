@@ -8,22 +8,28 @@
 # $\fbox{Project name: Trekking Tales}$
 
 
-Trekking tales is a full-stack web application that allows users to get inspiration for their next trip by reading stories, recommendations and info about countries  
-It provides a platform for travellers to connect, inspire, and be inspired by others' adventures. 
+Trekking tales is a full-stack web application with the goal to help travel enthusiasts, explorers, and anyone interested to get inspired for their next trip by reading stories, recommendations and information about countries.
+Help discover new destinations and explore new experiences.
+It provides a platform for travellers to connect, inspire, and be inspired by other's adventures. 
+
 
 
 ## $\fbox{FEATURES}$
 
-The application features a user-friendly interface, allowing visitors to browse articles and photo, share feedback and stay connected.
-
-
+1). The application features a user-friendly interface, allowing visitors to browse articles and photo, share feedback and stay connected.
+ 
+2). Responsive design to ensure optimal user experience across different devices.
+3). Gallery page displaying visually appealing photos from various travel destinations.
+4). Destinations page with informative content about different travel locations.
+5). About page that introduces us, and our interests, and motivations.
+6). Contact page allowing visitors to get in touch with the blog's creators ( *feature to add*or provide feedback).
 
 
 
 ## $\fbox{TECHNOLOGIES USED}$
 
-1). Frontend: HTML, CSS, JavaScript, React.js, Bootstrap
-2). Other Tools and Libraries:React Router, Google Fonts, Font Awesome, Favicon.ico, Unsplash
+1). Frontend: HTML, CSS, JavaScript, React.js, Bootstrap.
+2). Other Tools and Libraries:React Router, Google Fonts, Font Awesome, Favicon.ico, Unsplash.
 
 
 ## $\fbox{GETTING STARTED}$
