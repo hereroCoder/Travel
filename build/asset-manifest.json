@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9d445caf.css",
+    "main.js": "/static/js/main.3db3dd1e.js",
+    "static/media/BG.mp4": "/static/media/BG.e77fee85b3faa1aeb535.mp4",
+    "static/media/Panama.jpeg": "/static/media/Panama.e2775a219c344fa5220f.jpeg",
+    "static/media/jamaica.jpeg": "/static/media/jamaica.ba0b1861fdd5543166a2.jpeg",
+    "static/media/USA.jpeg": "/static/media/USA.774786059497ac0d2625.jpeg",
+    "static/media/NewYork.jpeg": "/static/media/NewYork.3f1dba64364040645f14.jpeg",
+    "static/media/California.jpeg": "/static/media/California.b62729071294c5851087.jpeg",
+    "static/media/wave.jpeg": "/static/media/wave.a9172c435a9db3b49d5c.jpeg",
+    "static/media/CostaRica.jpeg": "/static/media/CostaRica.ba48773c87c1f71b7126.jpeg",
+    "static/media/StLucia.jpeg": "/static/media/StLucia.e1ee44622d68f40b6756.jpeg",
+    "static/media/Prague.jpeg": "/static/media/Prague.170d1ec8e1589d61c612.jpeg",
+    "static/media/ChiangMai.jpeg": "/static/media/ChiangMai.61ab8a3855c46abf85ad.jpeg",
+    "static/media/Montserrat.jpeg": "/static/media/Montserrat.63d3dca76fe3aef9972f.jpeg",
+    "static/media/hero.jpeg": "/static/media/hero.40ce31f894496b6fa485.jpeg",
+    "static/media/Philippines.jpeg": "/static/media/Philippines.d6f9ec17ec69f8b5c947.jpeg",
+    "static/media/Africa.jpeg": "/static/media/Africa.6c17a0880b1aa05da11a.jpeg",
+    "static/media/Cuba.jpeg": "/static/media/Cuba.b3ab127accefef54e81c.jpeg",
+    "static/media/Myanmar.jpeg": "/static/media/Myanmar.dfc245906df5d7e621da.jpeg",
+    "static/media/Caribbean.jpeg": "/static/media/Caribbean.fc822cb02ed117e4ef45.jpeg",
+    "static/media/Sardinia.jpeg": "/static/media/Sardinia.222abf7e73aa419d75eb.jpeg",
+    "static/media/jordan.jpg": "/static/media/jordan.f5ace21b3ca0aac50502.jpg",
+    "static/media/PhiPhi.jpeg": "/static/media/PhiPhi.46d9fb0cb8ad3fa52e23.jpeg",
+    "static/media/Canada.jpeg": "/static/media/Canada.8ae37c6b26663a60b0d0.jpeg",
+    "static/media/header.png": "/static/media/header.295ccd1491c50924445c.png",
+    "static/media/switz.jpg": "/static/media/switz.dfb253c9c56bef82ed4f.jpg",
+    "static/media/logo-travel-brown.png": "/static/media/logo-travel-brown.23e08c809c4642a4fa9d.png",
+    "static/media/suitcase.jpg": "/static/media/suitcase.25cb128018b0d5822ff8.jpg",
+    "index.html": "/index.html",
+    "main.9d445caf.css.map": "/static/css/main.9d445caf.css.map",
+    "main.3db3dd1e.js.map": "/static/js/main.3db3dd1e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d445caf.css",
+    "static/js/main.3db3dd1e.js"
+  ]
+}
