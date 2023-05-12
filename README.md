@@ -1,3 +1,5 @@
+# THE README IS NOT FINISHED YET...
+
 ![banner](https://github.com/ElenaGospodinova/Travel/assets/114920895/a529a11f-c81a-40ea-bd39-d463f9e98e53)
 
 
