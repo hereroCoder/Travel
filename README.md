@@ -23,15 +23,14 @@ The application features a user-friendly interface, allowing visitors to browse 
 ## $\fbox{TECHNOLOGIES USED}$
 
 1). Frontend: HTML, CSS, JavaScript, React.js, Bootstrap
-2). Backend: Node.js, Express.js 
-3). Other Tools and Libraries:React Router, Google Fonts, Font Awesome, Favicon.ico, Unsplash
+2). Other Tools and Libraries:React Router, Google Fonts, Font Awesome, Favicon.ico, Unsplash
 
 
 ## $\fbox{GETTING STARTED}$
 
 1). Clone the repository: git clone https://github.com/your-username/TravelWebsite-Blog.git
 2). Navigate to the project directory: cd Travel
-3). Install dependencies: npm install, (npm font awesome)?
+3). Install dependencies: npm install
 4). Set up the environment variables by creating a .env file based on the provided .env.example file.
 5). Start the development server: npm start
 6). The the application will start automatically or access the application at http://localhost:3000
@@ -54,7 +53,7 @@ Please make sure to update tests as appropriate.
 
 ## $\fbox{CONTACT}$
 
-@........
+@tharitar8, @ElenaGospodinova @marshjaja
 
 ## $\fbox{LICENCE}$
 
