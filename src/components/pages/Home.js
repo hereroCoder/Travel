@@ -40,9 +40,9 @@ function Home() {
 								opacity: '0.8',
 							}}
 						/>
-						<Carousel.Caption>
+						{/* <Carousel.Caption>
 							<h4>First slide label</h4>
-						</Carousel.Caption>
+						</Carousel.Caption> */}
 					</Carousel.Item>
 					<Carousel.Item>
 						<img
@@ -58,9 +58,9 @@ function Home() {
 							}}
 						/>
 
-						<Carousel.Caption>
+						{/* <Carousel.Caption>
 							<h4>Second slide label</h4>
-						</Carousel.Caption>
+						</Carousel.Caption> */}
 					</Carousel.Item>
 
 					<Carousel.Item>
@@ -77,9 +77,9 @@ function Home() {
 							}}
 						/>
 
-						<Carousel.Caption>
+						{/* <Carousel.Caption>
 							<h3>Third slide label</h3>
-						</Carousel.Caption>
+						</Carousel.Caption> */}
 					</Carousel.Item>
 					<Carousel.Item>
 						<img
@@ -95,9 +95,9 @@ function Home() {
 							}}
 						/>
 
-						<Carousel.Caption>
+						{/* <Carousel.Caption>
 							<h3>Third slide label</h3>
-						</Carousel.Caption>
+						</Carousel.Caption> */}
 					</Carousel.Item>
 					<Carousel.Item>
 						<img
@@ -113,13 +113,13 @@ function Home() {
 							}}
 						/>
 
-						<Carousel.Caption>
+						{/* <Carousel.Caption>
 							<h3>Third slide label</h3>
-						</Carousel.Caption>
+						</Carousel.Caption> */}
 					</Carousel.Item>
 				</Carousel>
 			</div>
-			<h5>
+			<h5 className='typing-h5'>
 				Embark on a Journey, Explore the Extraordinary. <br />
 				Let our Travel Blog be Your Guide to
 				<br /> Unforgettable Adventures and Inspiring Destinations.
@@ -127,7 +127,7 @@ function Home() {
 
 			<div class='container2'>
 				<a href='/destination' className='destination-link'>
-					<h4> Destination </h4>
+					<h4 className='destination1'> Accommodation </h4>
 				</a>
 				<div class='hover13 column'>
 					<div>
@@ -138,19 +138,19 @@ function Home() {
 								alt='sunset-beach'
 							/>
 						</figure>
-						<span>Hover</span>
+						<span></span>
 					</div>
 					<div>
 						<figure>
 							<img src={jordan} className='border-display' alt='jordan' />
 						</figure>
-						<span>Hover</span>
+						<span></span>
 					</div>
 					<div>
 						<figure>
 							<img src={switz} className='border-display' alt='switzerland' />
 						</figure>
-						<span>Name</span>
+						{/* <span>Name</span> */}
 					</div>
 				</div>
 			</div>

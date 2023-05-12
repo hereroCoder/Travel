@@ -36,8 +36,8 @@ body {
 	height: 50%;
 	display: flex;
 	align-items: center;
-	padding: 0.5rem;
-	margin-top: 0auto;
+	padding: 1rem;
+	margin-top: auto 0;
 	transition: transform 0.2s ease-in-out;
 }
 
