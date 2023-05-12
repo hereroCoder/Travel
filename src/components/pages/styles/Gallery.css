@@ -8,6 +8,8 @@
     box-shadow: 20px 20px 29px rgba(240, 189, 189, 0.3);
     height: 17vw;
     margin-left: 422px;
+    top:-20px;
+    border-radius: 12%;
     width: 60vw;
     display: flex;
     position: relative;
@@ -16,18 +18,18 @@
   }
   
   .title {
-    margin-top: 192px;
+    margin-top: 172px;
     font-size: 3rem;
     color: rgb(67, 65, 65);
-    text-shadow: 2px 2px 4px #dcd4d4;
+    text-shadow: 2px 2px 4px #a58f8f;
   }
   .container-gallery {
-    min-height: calc(100vh - 100px); /* Subtract the footer height from the viewport height */
+     min-height: calc(100vh - 100px); /* Subtract the footer height from the viewport height */
      display: flex;
      flex-direction: wrap;
      justify-content: space-between;
-      width:100vw;
-      overflow:auto;
+     width:100vw;
+     overflow:auto;
       padding:7%;
       color: #f5ebeb;
       float: left;
