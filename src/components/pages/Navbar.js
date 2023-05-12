@@ -25,7 +25,7 @@ export default function Navbar() {
 					<FontAwesomeIcon icon={faImage} size='sm' />
 					&nbsp; Gallery
 				</CustomLink>
-				<CustomLink to='/experience'>
+				<CustomLink to='/about'>
 					<FontAwesomeIcon icon={faUserGroup} size='sm' />
 					&nbsp;About US
 				</CustomLink>

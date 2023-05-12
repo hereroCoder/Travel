@@ -7,8 +7,8 @@
     background-position: center;
     box-shadow: 20px 20px 29px rgba(240, 189, 189, 0.3);
     height: 17vw;
-    margin-left:22px;
-    width: 50vw;
+    margin-left: 422px;
+    width: 60vw;
     display: flex;
     position: relative;
     justify-content: center;
@@ -21,7 +21,7 @@
     color: rgb(67, 65, 65);
     text-shadow: 2px 2px 4px #dcd4d4;
   }
-  .container {
+  .container-gallery {
     min-height: calc(100vh - 100px); /* Subtract the footer height from the viewport height */
      display: flex;
      flex-direction: wrap;
