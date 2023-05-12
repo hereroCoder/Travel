@@ -65,9 +65,6 @@ to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-## $\fbox{CONTACT}$
-
-
 ## $\fbox{LICENCE}$
 
 The Trekking Tales project is licensed under the [MIT](https://choosealicense.com/licenses/mit/)
