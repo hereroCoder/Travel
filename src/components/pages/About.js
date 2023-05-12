@@ -121,14 +121,6 @@ There is nothing better than sitting around a camp fire after a long day in the 
 			
 		</div>
 	)
-}
-
-export default About
-
-
-
-
-
-
-
+  }
+export default About;
 

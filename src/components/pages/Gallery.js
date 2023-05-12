@@ -22,7 +22,7 @@ import Sardinia from "../img/Sardinia.jpeg";
 const Gallery = () => {
   useEffect(() => {
     const handleScroll = () => {
-      const container = document.querySelector('.container');
+      const container = document.querySelector('.container-gallery');
       const img = container.querySelectorAll('.photo');
 
       img.forEach((photo) => {
@@ -58,10 +58,10 @@ const Gallery = () => {
 		<>
 			<header>
 				<div className='hero-div'>
-					<h4 className='title'>Exploring Horizons: A Blog for Adventurers</h4>
+					<h4 className='title'>Eat.Sleep.Travel.Repeat.</h4>
 				</div>
 			</header>
-			<div className='container'>
+			<div className='container-gallery'>
 				<div className='left-content'>
 					<animated.img src={Africa} className='photo' style={fadeProps} />
 					<p className='text'>
